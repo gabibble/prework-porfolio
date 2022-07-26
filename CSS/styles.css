@@ -1,0 +1,128 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  font-family: poppins;
+  background-color: rgb(153, 228, 193);
+  color: rgb(17, 26, 55);
+}
+
+nav {
+  display: block;
+  color: white;
+}
+
+nav ul {
+  background-color: black;
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  padding: 20px;
+}
+
+nav li {
+  display: inline;
+  margin: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: turquoise;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(153, 228, 193)),
+    url(../images/beach2.jpg);
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+  font-size: 72px;
+}
+
+main {
+  overflow: auto;
+}
+
+#main {
+  width: 70%;
+  float: left;
+  height: 100%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#side {
+  width: 25%;
+  float: right;
+  height: 100%;
+  padding: 20px;
+}
+
+#profile-image {
+  width: 80%;
+  border-radius: 50%;
+  border: 5px solid lightgray;
+  display: block;
+  margin: 0 auto;
+}
+
+.side-articles ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.side-articles,
+.main-articles {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.332);
+}
+
+form {
+  margin: 20px 10px;
+}
+
+textarea,
+.text {
+  background-color: beige;
+  border-radius: 4px;
+  padding: 5px;
+  display: block;
+  margin: 5px auto;
+  width: 95%;
+  border: none;
+}
+
+footer {
+  bottom: 0px;
+  width: 100%;
+  height: 5vh;
+}
+
+footer div {
+  text-align: center;
+  margin: 10px;
+}
+
+footer hr {
+  border: 1px white solid;
+}
