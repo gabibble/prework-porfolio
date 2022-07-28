@@ -3,8 +3,8 @@ html {
   height: 100%;
   margin: 0px;
   font-family: poppins;
-  background-color: rgb(153, 228, 193);
-  color: rgb(17, 26, 55);
+  background-color: rgb(255, 255, 255);
+  color: #693e52;
 }
 
 nav {
@@ -13,7 +13,7 @@ nav {
 }
 
 nav ul {
-  background-color: black;
+  background-color: #74b49b;
   margin: 0;
   list-style-type: none;
   width: 100%;
@@ -35,8 +35,8 @@ nav a:hover {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(153, 228, 193)),
-    url(../images/beach2.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)),
+    url(../images/sky.jpg);
   height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,6 +55,17 @@ nav a:hover {
 
 .hero-text h1 {
   font-size: 72px;
+  font-weight: 300;
+  color: #693e52;
+}
+
+h2 {
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+h4 {
+  color: #74b49b;
 }
 
 main {
@@ -62,24 +73,68 @@ main {
 }
 
 #main {
-  width: 70%;
+  width: 65%;
   float: left;
   height: 100%;
   padding-left: 20px;
   padding-top: 20px;
 }
 
+figure {
+  display: inline;
+  float: right;
+  margin: 10px;
+}
+.fam-pic {
+  max-width: 250px;
+  border-radius: 5px;
+}
+
+.fam {
+  min-height: 270px;
+}
+
+.row {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hobby {
+  font-size: 16px;
+}
+.column {
+  flex: 50%;
+}
+
+.pod-pic {
+  max-width: 22.5%;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #693e52;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
 #side {
-  width: 25%;
+  width: 30%;
   float: right;
   height: 100%;
-  padding: 20px;
+  padding: 20px 20px 20px 10px;
 }
 
 #profile-image {
   width: 80%;
   border-radius: 50%;
-  border: 5px solid lightgray;
+  border: 5px solid rgb(255, 255, 255);
   display: block;
   margin: 0 auto;
 }
@@ -91,10 +146,10 @@ main {
 
 .side-articles,
 .main-articles {
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.332);
+  background-color: #a7d7c58a;
 }
 
 form {
@@ -103,7 +158,7 @@ form {
 
 textarea,
 .text {
-  background-color: beige;
+  background-color: rgb(255, 255, 255);
   border-radius: 4px;
   padding: 5px;
   display: block;
