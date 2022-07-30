@@ -17,9 +17,9 @@
     <nav>
       <ul>
         <li>Julia's Portfolio</li>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
+        <li><a href="/index.html#bio">About</a></li>
+        <li><a href="/index.html#hobbies">Hobbies</a></li>
+        <li><a href="mailto:juliagieb@gmail.com">Contact</a></li>
       </ul>
     </nav>
     <div class="hero-image">
@@ -30,8 +30,9 @@
     </div>
     <main>
       <div id="main">
-        <article class="main-articles bio">
+        <article class="main-articles bio" id="bio">
           <h2>Who am I?</h2>
+          <hr />
           <strong
             ><small
               >After 8 years of teaching, I'm jumping into the world of
@@ -59,9 +60,15 @@
             <figcaption><em>World's cutest dog</em></figcaption>
           </figure>
           <h2>My "Framily"</h2>
+          <hr />
+          <strong
+            ><small
+              >I live in Portland, Oregon with my fiance Steve and our dog,
+              Franny.</small
+            ></strong
+          >
 
           <p class="franny">
-            I live in Portland, Oregon with my fiance Steve and our dog, Franny.
             We love to spend our time together playing fetch at the park, going
             for hikes, or grabbing a patio beer. This picture is of us on the
             Oregon coast, featuring Franny trying to scramble out of Steve's
@@ -69,8 +76,9 @@
             things to do.
           </p>
         </article>
-        <article class="main-articles hobbies">
+        <article class="main-articles hobbies" id="hobbies">
           <h2>Hobbies and Activities</h2>
+          <hr />
           <strong
             ><small
               >I love the outdoors but also can be a homebody. I love spending
@@ -142,11 +150,12 @@
         </article>
         <article class="main-articles podcasts">
           <h2>Podcasts</h2>
+          <hr />
           <p>
             I'm obssessed with podcasts. Here are some of my favorites. Click to
             listen:
           </p>
-          <div>
+          <div class="pods">
             <a href="https://yourewrongabout.com/"
               ><img src="images/ywa.jpeg" class="pod-pic" alt="" />
             </a>
@@ -161,21 +170,13 @@
             </a>
           </div>
         </article>
-        <article class="main-articles">
-          <h2>Games</h2>
-          <iframe
-            width="100%"
-            height="300px"
-            src="https://www.addictinggames.com/embed/html5-games/23807"
-            scrolling="no"
-          ></iframe>
-        </article>
       </div>
       <div id="side">
         <article class="side-articles" id="profile">
           <img id="profile-image" src="images/juliabw.jpeg" />
           <div class="profile-details">
             <h2>Julia Giebultowicz</h2>
+            <hr />
             <ul>
               <li>
                 <a href="https://www.juliagiebultowicz.com/"
@@ -194,26 +195,9 @@
             </ul>
           </div>
         </article>
-
-        <article class="side-articles">
-          <h1>Title E</h1>
-          <strong
-            ><small
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </small></strong
-          >
-          <iframe
-            src="https://www.nytimes.com/games/wordle/index.html"
-            frameborder="0"
-          ></iframe>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dignissimos debitis deleniti optio architecto veritatis eveniet
-            molestiae.
-          </p>
-        </article>
-        <article class="side-articles">
+        <article class="side-articles" id="contact">
           <h2>Contact Me</h2>
+          <hr />
           <strong><small>Please Contact Me with Questions</small></strong>
           <br />
           <form action="mailto:juliagieb@gmail.com" method="POST">
@@ -226,14 +210,14 @@
             <br />
             <textarea id="body" placeholder="Your Message" rows="5"></textarea>
             <br />
-            <input type="submit" />
+            <input class="submit" type="submit" />
           </form>
         </article>
       </div>
     </main>
     <footer>
       <hr />
-      <div>&copy Julia Giebultowicz 2021</div>
+      <div>&copy Julia Giebultowicz 2022</div>
     </footer>
   </body>
 </html>

@@ -3,8 +3,8 @@ html {
   height: 100%;
   margin: 0px;
   font-family: poppins;
-  background-color: rgb(255, 255, 255);
-  color: #693e52;
+  background-color: #f7e7ef;
+  color: #121215;
 }
 
 nav {
@@ -13,7 +13,7 @@ nav {
 }
 
 nav ul {
-  background-color: #74b49b;
+  background-color: #681b37;
   margin: 0;
   list-style-type: none;
   width: 100%;
@@ -31,12 +31,12 @@ nav a {
 }
 
 nav a:hover {
-  color: turquoise;
+  color: #e1cbcd;
+  font-weight: 600;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)),
-    url(../images/sky.jpg);
+  background-image: url(../images/mountains.jpg);
   height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,17 +55,27 @@ nav a:hover {
 
 .hero-text h1 {
   font-size: 72px;
-  font-weight: 300;
-  color: #693e52;
+  font-weight: 400;
+  color: #fdfdfd;
 }
 
 h2 {
   margin-top: 5px;
+  margin-bottom: 0px;
   font-size: 30px;
+  color: #681b3793;
+  font-weight: 300;
 }
 
 h4 {
-  color: #74b49b;
+  color: #681b37;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+p {
+  font-family: aleo;
+  font-weight: 300;
 }
 
 main {
@@ -110,14 +120,14 @@ li {
 }
 
 .pod-pic {
-  max-width: 22.5%;
+  max-width: 22%;
   border-radius: 4px;
-  margin: 5px;
+  margin: 8px;
 }
 
 a {
   text-decoration: none;
-  color: #693e52;
+  color: #926e7f;
 }
 
 a:hover {
@@ -134,9 +144,9 @@ a:hover {
 #profile-image {
   width: 80%;
   border-radius: 50%;
-  border: 5px solid rgb(255, 255, 255);
+  border: 8px solid rgb(255, 255, 255);
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 .side-articles ul {
@@ -147,15 +157,24 @@ a:hover {
 .side-articles,
 .main-articles {
   padding: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 10px;
-  background-color: #a7d7c58a;
+  background-color: #3581e41b;
 }
 
 form {
   margin: 20px 10px;
 }
 
+.submit {
+  font-family: poppins;
+  border: 0px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #693e4e;
+  color: white;
+}
 textarea,
 .text {
   background-color: rgb(255, 255, 255);
@@ -165,6 +184,7 @@ textarea,
   margin: 5px auto;
   width: 95%;
   border: none;
+  font-family: aleo;
 }
 
 footer {
@@ -178,6 +198,6 @@ footer div {
   margin: 10px;
 }
 
-footer hr {
+hr {
   border: 1px white solid;
 }
